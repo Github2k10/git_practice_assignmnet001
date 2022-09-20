@@ -2,7 +2,7 @@ let num = 13;
 
 console.log(primeCheck(num));
 
-function primeCheck(){
+function primeCheck(num){
 if(num <= 1 || underfined)
  return false;
 
