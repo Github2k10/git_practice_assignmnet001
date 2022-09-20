@@ -1,8 +1,11 @@
-let num = 13;
+let number = 13;
 
-console.log(primeCheck(num));
+answer=primeCheck(number)
+if(answer===true){
+console.log(number,"is a prime num"}
+else{console.log(number,"is not a prime num"}
 
-function primeCheck(){
+function primeCheck(number){
 if(num <= 1 || underfined)
  return false;
 
