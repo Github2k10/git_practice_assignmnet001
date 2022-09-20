@@ -1,13 +1,16 @@
-let num = 13;
+let number = 13;
 
-console.log(primeCheck(num));
+answer=primeCheck(number)
+if(answer===true){
+console.log(number,"is a prime num"}
+else{console.log(number,"is not a prime num"}
 
-function primeCheck(num){
-if(num <= 1 || underfined)
+function primeCheck(number){
+if(number <= 1 || underfined)
  return false;
 
-for(let i = 2; i <= num**0.5; i++){
-if(num % i == 0){return false;}
+for(let i = 2; i <= number**0.5; i++){
+if(number % i == 0){return false;}
 }
 return true;
 }
